@@ -223,8 +223,8 @@ if uploaded or use_sample:
         image_bgr = cv2.imread(sample_path)
         filename  = "sample_bw.jpg"
     else:
-        image_bgr = load_image_from_bytes(uploaded.read())
-        filename  = uploaded.name
+        image_bgr = load_image_from_bytes(uploaded.read())  # type: ignore[union-attr]
+        filename  = uploaded.name                            # type: ignore[union-attr]
 
     if image_bgr is None:
         st.error("❌ Could not decode the image.")
