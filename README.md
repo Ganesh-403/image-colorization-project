@@ -208,11 +208,8 @@ opts = ColorizeOptions.high_quality() # ~3-8s — r=16 guided filter, aggressive
 
 ## 📸 Screenshots
 
-| Original (Grayscale) | AI Colorized |
-
-|---|---|
-
-| ![Original](screenshots/original.png) | ![Colorized](screenshots/colorized.png) |
+ ![Original](screenshots/original.png) 
+ ![Colorized](screenshots/colorized.png) |
 
 ---
 
