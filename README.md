@@ -49,9 +49,9 @@ image-colorization-project/
 │   └── app.py          # Streamlit web UI
 │
 ├── images/
-│   └── sample_bw.jpg   # Sample test image
+│   ├── original.png   # Sample test image
+│   └── colorized.png  # Sample test image
 │
-├── results/            # Output images (auto-created)
 ├── download_models.py  # One-time model downloader
 ├── run_colorize.py     # CLI script
 ├── requirements.txt
