@@ -1,0 +1,15 @@
+# ── AI Image Colorization — Python Dependencies ──────────────────────────────
+# Install with: pip install -r requirements.txt
+
+# Core image processing and computer vision
+opencv-python>=4.8.0          # OpenCV: image I/O, color space conversion, DNN inference
+numpy>=1.24.0                 # Numerical arrays (image data representation)
+
+# Visualization
+matplotlib>=3.7.0             # Side-by-side comparison plots
+
+# Web interface
+streamlit>=1.28.0             # Web demo UI
+
+# Image handling (used by Streamlit for PIL Image support)
+Pillow>=10.0.0                # PIL Image — encode/decode, format conversion

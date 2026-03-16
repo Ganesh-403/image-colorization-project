@@ -1,0 +1,4 @@
+# Model files — download with: python download_models.py
+# These files are NOT committed to git (too large / redistributed separately)
+
+colorization_release_v2.caffemodel
