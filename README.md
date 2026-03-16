@@ -219,7 +219,3 @@ opts = ColorizeOptions.high_quality() # ~3-8s — r=16 guided filter, aggressive
   https://arxiv.org/abs/1603.08511
 - He, K., Sun, J., & Tang, X. (2013). *Guided Image Filtering.* TPAMI.
   https://ieeexplore.ieee.org/document/6319405
-
----
-
-*BE Final Year Mini Project — SPPU 2019 Pattern*
